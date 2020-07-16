@@ -1,0 +1,241 @@
+
+@import "__variable";
+@import "__default";
+%transition{
+	 transition: all-0 0.3s-ease-in;
+  -webkit-transition: all-0 0.3s-ease-in;
+  -o-transition: all-0 0.3s-ease-in; 
+}
+
+%btn{
+	font-size: 19px;
+	letter-spacing: 1px;
+	border-radius: 30px;
+	padding: 6px 25px;
+	@extend %transition;
+}
+
+
+.header-section{
+	background-color: $bg_Color;
+
+    .navbar{
+    	padding: 1.5rem 0;
+	.navbar-brand{
+		img{
+			width: 200px;
+		}
+	}
+    
+	.navbar-nav{
+		.nav-item{
+			.nav-link{
+				color: $Primary_Color;
+				@extend %btn;
+
+				&:hover{
+			     background-color:$Secondary_Color;
+                 color: #fff;
+				}
+			}
+
+			&:last-child{
+					.nav-link{
+						 background-color:$Secondary_Color;
+                         color: #fff;
+					}
+				}
+		}
+	}
+
+	}
+	
+	h6{
+		color:red;
+		font-size: 20px;
+	}
+	h2{
+		font-size: 70px;
+		font-weight: 800;
+		padding-top: 10px;
+		span{
+			color: $Secondary_Color;
+		}
+	}
+	p{
+		font-size: 20px;
+		padding-top: 10px;
+		color: #00000073;
+		line-height: 2;
+	}
+
+	img{
+		width: 100%;
+	}
+
+}
+
+	.btn{
+		color: #fff;
+	    background-color: $Secondary_Color;
+	     @extend %btn;
+	     margin-bottom: 1rem;
+	     
+
+	}
+
+
+	.books-section{
+		padding : 40px 0;
+		text-align: center;
+		
+		
+		
+		.book{
+			background-color: $bg_Color;
+			height: 250px;
+			padding: 38px;
+			border-radius: 10px;
+			&:hover{
+				background-color:#fff;
+				box-shadow: 0px 2px 20px #00000033;
+			}
+			img{
+				height: 80px;
+
+			}
+			h3{
+				font-size: 25px;
+				font-weight: bold;
+				padding-top: 20px;
+			}
+			h5{
+				font-size: 20px;
+				color:#00000073; 
+			}
+		}
+	}
+
+
+.heading{
+			text-align: center;
+				padding: 50px 0;
+			h1{
+				color: #45445f;
+				font-weight: 600;
+				font-size: 40px;
+				letter-spacing: 1px;
+			}
+		}
+	.online-section{
+		.course{
+			border-radius: 10px;
+			box-sizing: border-box;
+			.card{
+				box-shadow: 0px 2px 20px #00000033;
+				padding: 20px;
+				
+				
+				img{
+					height: 200px;
+					border-radius: 10px;
+				}
+			.card-body{
+				margin-top: 20px;
+				h5{
+					font-weight: 400;
+					font-size: 25px;
+					color: #45445f;
+					margin: 0;
+				}
+				p{
+					font-size: 20px;
+					color: #00000073;
+				}
+				.nav{
+				
+					li{
+                      
+						img{
+                           height: 20px;
+						}
+						span{
+                            font-size: 16px;
+                            color:  #00000073;
+
+						}
+					}
+				}
+			}
+			}
+		}
+	}
+
+	.testimonial-section{
+		padding: 50px 0;
+		img{
+			height: 150px;
+		}
+		p{
+		font-size: 18px;
+		color: black;
+		line-height: 1.6;
+		}
+	}
+
+	.footer-section{
+		background-color: #282531;
+		color: #fff;
+		padding: 30px 0;
+
+	     p{
+	     	color: #fff;
+	     	font-size: 16px;
+	     }
+	     ul{
+	     	li{
+	     		a{
+	     			color: #fff;
+	     			line-height: 2;
+	     			font-size: 16px;
+	     			font-weight: none;
+	     		}
+	     	}
+	    
+	     }
+	     h5{
+	     	text-align: center;
+	     	margin-top: 30px;
+	     	color: #7d7979;
+	     }
+	}
+
+
+	@media (min-width:992px ) and (max-width:1199px ){
+
+	}
+	@media (min-width:768px ) and (max-width:991px ){
+
+	}
+	@media (min-width:576px ) and (max-width:767px ){
+
+	}
+	@media (min-width:320px ) and (max-width:575px ){
+      .header-section .navbar .navbar-brand img {
+    width: 170px;
+}
+.header-section h6 {
+    font-size: 16px;
+}
+.header-section h2 {
+    font-size: 35px;
+}
+.header-section p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.header-section .navbar .navbar-nav .nav-item .nav-link, .btn {
+    font-size: 16px;
+    padding: 3px 18px;
+}
+	}

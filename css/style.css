@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;0,900;1,500;1,700&display=swap");
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #000000;
+  line-height: 1.6; }
+
+.header-section .navbar .navbar-nav .nav-item .nav-link, .btn {
+  transition: all-0 0.3s-ease-in;
+  -webkit-transition: all-0 0.3s-ease-in;
+  -o-transition: all-0 0.3s-ease-in; }
+
+.header-section .navbar .navbar-nav .nav-item .nav-link, .btn {
+  font-size: 19px;
+  letter-spacing: 1px;
+  border-radius: 30px;
+  padding: 6px 25px; }
+
+.header-section {
+  background-color: #f0fff0; }
+  .header-section .navbar {
+    padding: 1.5rem 0; }
+    .header-section .navbar .navbar-brand img {
+      width: 200px; }
+    .header-section .navbar .navbar-nav .nav-item .nav-link {
+      color: #000000; }
+      .header-section .navbar .navbar-nav .nav-item .nav-link:hover {
+        background-color: #21b573;
+        color: #fff; }
+    .header-section .navbar .navbar-nav .nav-item:last-child .nav-link {
+      background-color: #21b573;
+      color: #fff; }
+  .header-section h6 {
+    color: red;
+    font-size: 20px; }
+  .header-section h2 {
+    font-size: 70px;
+    font-weight: 800;
+    padding-top: 10px; }
+    .header-section h2 span {
+      color: #21b573; }
+  .header-section p {
+    font-size: 20px;
+    padding-top: 10px;
+    color: #00000073;
+    line-height: 2; }
+  .header-section img {
+    width: 100%; }
+
+.btn {
+  color: #fff;
+  background-color: #21b573;
+  margin-bottom: 1rem; }
+
+.books-section {
+  padding: 40px 0;
+  text-align: center; }
+  .books-section .book {
+    background-color: #f0fff0;
+    height: 250px;
+    padding: 38px;
+    border-radius: 10px; }
+    .books-section .book:hover {
+      background-color: #fff;
+      box-shadow: 0px 2px 20px #00000033; }
+    .books-section .book img {
+      height: 80px; }
+    .books-section .book h3 {
+      font-size: 25px;
+      font-weight: bold;
+      padding-top: 20px; }
+    .books-section .book h5 {
+      font-size: 20px;
+      color: #00000073; }
+
+.heading {
+  text-align: center;
+  padding: 50px 0; }
+  .heading h1 {
+    color: #45445f;
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 1px; }
+
+.online-section .course {
+  border-radius: 10px;
+  box-sizing: border-box; }
+  .online-section .course .card {
+    box-shadow: 0px 2px 20px #00000033;
+    padding: 20px; }
+    .online-section .course .card img {
+      height: 200px;
+      border-radius: 10px; }
+    .online-section .course .card .card-body {
+      margin-top: 20px; }
+      .online-section .course .card .card-body h5 {
+        font-weight: 400;
+        font-size: 25px;
+        color: #45445f;
+        margin: 0; }
+      .online-section .course .card .card-body p {
+        font-size: 20px;
+        color: #00000073; }
+      .online-section .course .card .card-body .nav li img {
+        height: 20px; }
+      .online-section .course .card .card-body .nav li span {
+        font-size: 16px;
+        color: #00000073; }
+
+.testimonial-section {
+  padding: 50px 0; }
+  .testimonial-section img {
+    height: 150px; }
+  .testimonial-section p {
+    font-size: 18px;
+    color: black;
+    line-height: 1.6; }
+
+.footer-section {
+  background-color: #282531;
+  color: #fff;
+  padding: 30px 0; }
+  .footer-section p {
+    color: #fff;
+    font-size: 16px; }
+  .footer-section ul li a {
+    color: #fff;
+    line-height: 2;
+    font-size: 16px;
+    font-weight: none; }
+  .footer-section h5 {
+    text-align: center;
+    margin-top: 30px;
+    color: #7d7979; }
+
+@media (min-width: 320px) and (max-width: 575px) {
+  .header-section .navbar .navbar-brand img {
+    width: 170px; }
+
+  .header-section h6 {
+    font-size: 16px; }
+
+  .header-section h2 {
+    font-size: 35px; }
+
+  .header-section p {
+    font-size: 16px;
+    line-height: 1.5; }
+
+  .header-section .navbar .navbar-nav .nav-item .nav-link, .btn {
+    font-size: 16px;
+    padding: 3px 18px; } }
+
+/*# sourceMappingURL=style.css.map */
